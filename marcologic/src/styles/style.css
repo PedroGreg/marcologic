@@ -21,7 +21,7 @@ header {
 
 .menu {
     margin-right: 5%;
-    height: 70%;
+    height: 50%;
 }
 
 .logo{
@@ -36,22 +36,28 @@ main {
     background-image: url(/src/assets/images/hero.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: bottom;
 }
 .text-hero{
     display: grid;
     color: white;
-    background-color: #8C8C8C3C;
+    /* background-color: #8C8C8C3C; */
+    filter: blur(80px);
     height: 160px;
-    width: 50%;
+    width: 40%;
     margin-left: 5%;
+    filter: blur();
 }
 .text-hero h1{
     justify-self: center;
     font-size: 40px;
+    /* -webkit-text-stroke: #000 2px; */
+    text-shadow: -2px 2px 5px #000;
     font-weight: bold;
     text-shadow: 10px 10px 10px 10px #000;
 }
 .text-hero p{
     justify-self: center;
     font-size: 30px;
+    text-shadow: -2px 2px 5px #000;
 }
